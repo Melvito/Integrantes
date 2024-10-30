@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Integrantes</title>
+    <style>
+        body {
+            font-family: 'Arial Narrow', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FCE4EC; /* Fondo rosado pastel */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+        .banner {
+            background-color: #F8BBD0; /* Rosado pastel */
+            color: #4E342E; /* Color marrón oscuro para el texto */
+            text-align: center;
+            padding: 40px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+        }
+        .banner h1 {
+            font-size: 3rem; /* Tamaño de letra más grande */
+            position: relative;
+            z-index: 1;
+            margin: 0;
+        }
+        .banner::before {
+            content: "❤";
+            font-size: 8rem; /* Tamaño grande para el corazón */
+            color: rgba(255, 182, 193, 0.2); /* Color rosado claro y difuminado */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 0;
+        }
+        .nombres {
+            background-color: #F48FB1; /* Otro tono pastel rosado */
+            color: #4E342E; /* Color de texto oscuro */
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        .nombres p {
+            font-size: 1.2rem; /* Tamaño de letra super kind */
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <h1>Integrantes Smaily</h1>
+    </div>
+    <div class="nombres">
+        <p>Melvin Adiel Vasquez Mejia</p>
+        <p>Susana Jaquelineth Pereira Castillo</p>
+        <p>Rey Arturo Cruz Peraza</p>
+    </div>
+</body>
+</html>
